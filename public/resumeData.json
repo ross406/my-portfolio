@@ -4,7 +4,7 @@
     "occupation": "Full Stack Developer  ",
     "description": "Full Stack Developer and I like working with MERN stack as well as React Native ",
     "image": "download.jpg",
-    "bio": "My name is Roshan, I'm a Full Stack Developer (MERN). I have completed my Internship of 3 months at Broadway Society.",
+    "bio": "My name is Roshan, I'm a Full Stack Developer (MERN). I have three months of experience as a Full Stack Developer at Broadway Society.",
     "contactmessage": "Get in touch with me to receive further details.",
     "email": "roshansharma406@gmail.com",
     "phone": "+91 9766084483",
@@ -53,7 +53,7 @@
       {
         "company": "Broadway Society",
         "title": "Team Member && Full Stack Developer",
-        "years": "April 2020 - July 2020",
+        "years": "April 2020 - July 2020 (3 months)",
         "description": "Worked on a Movie reviews website a MERN stack Project "
       }
     ],
@@ -99,6 +99,18 @@
         "url": "https://netflix-clone-9762a.firebaseapp.com/"
       },
       {
+        "title": "Amazon Clone",
+        "category": "Amazon Clone built with ReactJS",
+        "image": "dims.jpg",
+        "url": "https://clone-2a6eb.firebaseapp.com/"
+      },
+      {
+        "title": "COVID-19 Tracker",
+        "category": "COVID-19 Tracker built with ReactJS",
+        "image": "covid.png",
+        "url": "https://covid-19-tracker-26dce.web.app/"
+      },
+      {
         "title": "Ross's Website",
         "category": "Buying and Selling website built with MERN",
         "image": "ross.png",
@@ -121,12 +133,8 @@
   "testimonials": {
     "testimonials": [
       {
-        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user": "Kareem Abdul Jabbar"
-      },
-      {
-        "text": "That Sonny Sangha must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
+        "text": "It is with much pleasure that I take this opportunity to write a personal recommendation for Roshan Sharma. He has been a crucial member of the web development team of Broadway Society and was working as a Full Stack Developer since he joined us on 04th April 2020 till 04th July 2020.      His task was to design and build our website - www.broadwaysociety.in , which he successfully did, and the organisation is really proud of him. Over his term of 100+ days at the organisation he has had diverse responsibilities, as a web developer. Being a Web Developer can be irritating at times, but for Roshan, it is something he loves, and puts all his time, effort and energy into. He worked both on the Front End and the Back End of the website. He has been regularly up to date with all the tasks assigned to him and has continuously provided the organisation with extremely high-quality work. Roshan carries his duties with due diligence and enthusiasm thus giving out his best. He is very focused and eyeing to make a name for himself in this field. He is an outgoing student of good character and a team builder. I have found him to be an individual of great commitment and focus, duly possessing exceptional logical thinking skills as manifested in his performance towards the duties and responsibilities. He is a dedicated individual and works with extreme professionalism. I can therefore recommend him to any place that he wants to go for. With my knowledge, I know he has the necessary skills and expertise to perform the duties assigned to him timely. I am confident he will apply the same enthusiasm in any institution where he is a part of. Having Roshan in your institution is more of an asset.",
+        "user": "Aayush Kumar Jha Founder and Director Broadway Society"
       }
     ]
   }
