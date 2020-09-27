@@ -1,6 +1,12 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 class About extends Component {
+  componentDidMount() {
+    Aos.init({ duration: 1000 });
+  }
+
   render() {
     if (this.props.data) {
       var name = this.props.data.name;
@@ -18,14 +24,14 @@ class About extends Component {
     return (
       <section id='about'>
         <div className='row'>
-          <div className='three columns'>
+          <div data-aos='fade-up' className='three columns'>
             <img
               className='profile-pic'
               src={profilepic}
               alt='Roshan Sharma Profile Pic'
             />
           </div>
-          <div className='nine columns main-col'>
+          <div data-aos='fade-up' className='nine columns main-col'>
             <h2>About Me</h2>
 
             <p>{bio}</p>

@@ -60,27 +60,33 @@
     "skills": [
       {
         "name": "ReactJs",
-        "level": "80%"
+        "level": "80%",
+        "logo": "react.png"
       },
       {
         "name": "NodeJs",
-        "level": "70%"
+        "level": "70%",
+        "logo": "node.png"
       },
       {
         "name": "MongoDB",
-        "level": "80%"
+        "level": "80%",
+        "logo": "mongodb.png"
       },
       {
         "name": "CSS",
-        "level": "70%"
+        "level": "70%",
+        "logo": "css3.png"
       },
       {
         "name": "HTML5",
-        "level": "80%"
+        "level": "80%",
+        "logo": "HTML5.png"
       },
       {
         "name": "Git",
-        "level": "60%"
+        "level": "60%",
+        "logo": "git.png"
       }
     ]
   },
@@ -97,6 +103,12 @@
         "category": "Netflix Clone built with ReactJS",
         "image": "netflix-clone.jpeg",
         "url": "https://netflix-clone-9762a.firebaseapp.com/"
+      },
+      {
+        "title": "Spotify Clone",
+        "category": "Spotify Clone built with ReactJS",
+        "image": "spotify.jpg",
+        "url": "https://spotify-clone-f2d66.web.app/"
       },
       {
         "title": "Amazon Clone",

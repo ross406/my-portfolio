@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
-
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 class Portfolio extends Component {
+  componentDidMount() {
+    Aos.init({ duration: 1000 });
+  }
   render() {
     if (this.props.data) {
       var projects = this.props.data.projects.map(function (projects) {
         var projectImage = 'images/portfolio/' + projects.image;
         return (
           <div key={projects.title} className='columns portfolio-item'>
-            <div className='item-wrap'>
+            <div data-aos='fade-up' className='item-wrap'>
               <a target='_blank' href={projects.url} title={projects.title}>
                 <img alt={projects.title} src={projectImage} />
                 <div className='overlay'>

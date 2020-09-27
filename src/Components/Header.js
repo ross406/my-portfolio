@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
-
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 class Header extends Component {
+  componentDidMount() {
+    Aos.init({ duration: 2000 });
+  }
+
   render() {
     if (this.props.data) {
       var name = this.props.data.name;
@@ -64,7 +69,9 @@ class Header extends Component {
               I'm a {city} based <span>{occupation}</span>. {description}.
             </h3>
             <hr />
-            <ul className='social'>{networks}</ul>
+            <ul data-aos='fade-up' className='social'>
+              {networks}
+            </ul>
           </div>
         </div>
 
