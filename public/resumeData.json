@@ -117,6 +117,12 @@
         "url": "https://clone-2a6eb.firebaseapp.com/"
       },
       {
+        "title": "Zoom Clone",
+        "category": "Zoom Clone built with ReactJS",
+        "image": "zoom.jpg",
+        "url": "https://zoom-clone-ross.herokuapp.com/"
+      },
+      {
         "title": "COVID-19 Tracker",
         "category": "COVID-19 Tracker built with ReactJS",
         "image": "covid.png",
