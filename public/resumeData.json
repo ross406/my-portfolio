@@ -105,6 +105,12 @@
         "url": "https://netflix-clone-9762a.firebaseapp.com/"
       },
       {
+        "title": "Discord Clone",
+        "category": "Discord Clone built with ReactJS",
+        "image": "discord.webp",
+        "url": "https://discord-clone-4300c.web.app/"
+      },
+      {
         "title": "Spotify Clone",
         "category": "Spotify Clone built with ReactJS",
         "image": "spotify.jpg",
@@ -118,7 +124,7 @@
       },
       {
         "title": "Zoom Clone",
-        "category": "Zoom Clone built with ReactJS",
+        "category": "Zoom Clone built with NodeJs, Socket.io, Peer.js",
         "image": "zoom.jpg",
         "url": "https://zoom-clone-ross.herokuapp.com/"
       },
