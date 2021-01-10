@@ -99,6 +99,12 @@
         "url": "https://broadwaysociety.herokuapp.com/"
       },
       {
+        "title": "ProShop",
+        "category": "E-commerce website built with MERN",
+        "image": "proshop.png",
+        "url": "https://proshop-ross.herokuapp.com/"
+      },
+      {
         "title": "Netflix Clone",
         "category": "Netflix Clone built with ReactJS",
         "image": "netflix-clone.jpeg",
