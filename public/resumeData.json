@@ -4,7 +4,7 @@
     "occupation": "Full Stack Developer  ",
     "description": "Full Stack Developer and I like working with MERN stack as well as React Native ",
     "image": "download.jpg",
-    "bio": "My name is Roshan, I'm a Full Stack Developer (MERN). I have three months of experience as a Full Stack Developer at Broadway Society.",
+    "bio": "My name is Roshan, I'm a Full Stack Developer (MERN). I have 1 Year of experience as a Full Stack Developer.",
     "contactmessage": "Get in touch with me to receive further details.",
     "email": "roshansharma406@gmail.com",
     "phone": "+91 9766084483",
@@ -15,7 +15,7 @@
       "zip": "411023"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload": "https://drive.google.com/file/d/1wbJPD2xqK8LfY1KNvCdQcp1QEihnxF0q/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1lII-HE01X9C9F6TYMuuQXylB-dlNcO6B/view?usp=sharing",
     "social": [
       {
         "name": "facebook",
@@ -51,6 +51,12 @@
     ],
     "work": [
       {
+        "company": "LitmusBlox",
+        "title": "Team Member && React Developer",
+        "years": "From Nov 2020",
+        "description": "LitmusBlox is a powerful, AI-driven platform that helps companies screen hundreds of candidate applications automatically without making a single phone call. "
+      },
+      {
         "company": "Broadway Society",
         "title": "Team Member && Full Stack Developer",
         "years": "April 2020 - July 2020 (3 months)",
@@ -60,12 +66,17 @@
     "skills": [
       {
         "name": "ReactJs",
-        "level": "80%",
+        "level": "90%",
         "logo": "react.png"
       },
       {
+        "name": "Redux",
+        "level": "80%",
+        "logo": "redux.png"
+      },
+      {
         "name": "NodeJs",
-        "level": "70%",
+        "level": "75%",
         "logo": "node.png"
       },
       {
@@ -85,7 +96,7 @@
       },
       {
         "name": "Git",
-        "level": "60%",
+        "level": "70%",
         "logo": "git.png"
       }
     ]
