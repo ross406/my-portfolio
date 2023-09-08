@@ -51,38 +51,32 @@
     ],
     "work": [
       {
-        "company": "Team Geek Solutions",
-        "title": "Team Member && Full Stack Developer",
-        "years": "From Dec 2021",
-        "description": "Team Geek Solutions is a technology consulting company that provides you an extended in-house team by deploying a crew of meticulously recruited, time-tested full stack experts working remotely in your projects. "
-      },
-      {
         "company": "LitmusBlox",
-        "title": "Team Member && Full Stack Developer",
+        "title": "Team Member && React Developer",
         "years": "From Nov 2020",
         "description": "LitmusBlox is a powerful, AI-driven platform that helps companies screen hundreds of candidate applications automatically without making a single phone call. "
       },
       {
         "company": "Broadway Society",
         "title": "Team Member && Full Stack Developer",
-        "years": "April 2020 - July 2020",
+        "years": "April 2020 - July 2020 (3 months)",
         "description": "Worked on a Movie reviews website a MERN stack Project "
       }
     ],
     "skills": [
       {
         "name": "ReactJs",
-        "level": "95%",
+        "level": "90%",
         "logo": "react.png"
       },
       {
         "name": "Redux",
-        "level": "90%",
+        "level": "80%",
         "logo": "redux.png"
       },
       {
         "name": "NodeJs",
-        "level": "80%",
+        "level": "75%",
         "logo": "node.png"
       },
       {
@@ -97,7 +91,7 @@
       },
       {
         "name": "HTML5",
-        "level": "70%",
+        "level": "80%",
         "logo": "HTML5.png"
       },
       {
@@ -110,10 +104,16 @@
   "portfolio": {
     "projects": [
       {
+        "title": "Broadway Society",
+        "category": "Movie Review built with MERN",
+        "image": "bS.png",
+        "url": "https://broadwaysociety.herokuapp.com/"
+      },
+      {
         "title": "ProShop",
         "category": "E-commerce website built with MERN",
         "image": "proshop.png",
-        "url": "https://proshop.gominimind.ai/"
+        "url": "https://proshop-ross.herokuapp.com/"
       },
       {
         "title": "Netflix Clone",
@@ -128,16 +128,46 @@
         "url": "https://discord-clone-4300c.web.app/"
       },
       {
+        "title": "Spotify Clone",
+        "category": "Spotify Clone built with ReactJS",
+        "image": "spotify.jpg",
+        "url": "https://spotify-clone-f2d66.web.app/"
+      },
+      {
         "title": "Amazon Clone",
         "category": "Amazon Clone built with ReactJS",
         "image": "dims.jpg",
         "url": "https://clone-2a6eb.firebaseapp.com/"
       },
       {
+        "title": "Zoom Clone",
+        "category": "Zoom Clone built with NodeJs, Socket.io, Peer.js",
+        "image": "zoom.jpg",
+        "url": "https://zoom-clone-ross.herokuapp.com/"
+      },
+      {
         "title": "COVID-19 Tracker",
         "category": "COVID-19 Tracker built with ReactJS",
         "image": "covid.png",
         "url": "https://covid-19-tracker-26dce.web.app/"
+      },
+      {
+        "title": "Ross's Website",
+        "category": "Buying and Selling website built with MERN",
+        "image": "ross.png",
+        "url": "https://ross-website.herokuapp.com/"
+      },
+      {
+        "title": "Tic Tac Toe",
+        "category": "Tic Tac Toe Game built with ReactJs",
+        "image": "tic tac toe.jpg",
+        "url": "https://react-tic-tac-toe-ross.herokuapp.com/"
+      },
+      {
+        "title": "Quiz App",
+        "category": "Quiz App built with ReactJs",
+        "image": "quiz.png",
+        "url": "https://blaze-challenge-quiz.herokuapp.com/"
       }
     ]
   },
