@@ -1,21 +1,21 @@
 {
   "main": {
     "name": "Roshan Sharma",
-    "occupation": "Full Stack Developer",
+    "occupation": "Full Stack Software Developer",
     "description": "ReactJS, Redux, NodeJS, Express, JavaScript",
     "image": "download.jpg",
-    "bio": "Passionate Full Stack Software Engineer with more than 3 years of professional experience in developing enterprise products using ReactJS, Redux, NodeJS, Express, JavaScript, SQL, MongoDB, Material UI, Bootstrap, HTML5, CSS3.",
+    "bio": "Passionate Full Stack Software Engineer with more than 4 years of professional experience in developing enterprise products using ReactJS, Redux, NodeJS, Express, JavaScript, SQL, MongoDB, Material UI, Bootstrap, HTML5, CSS3.",
     "contactmessage": "Get in touch with me to receive further details.",
     "email": "roshansharma406@gmail.com",
-    "phone": "+971 582792560",
+    "phone": "+91 9766084483",
     "address": {
-      "street": "Karama,",
-      "city": " Dubai",
-      "state": "UAE",
-      "zip": ""
+      "street": "Sneha Vihar,",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "zip": "411023"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload": "https://drive.google.com/file/d/1lII-HE01X9C9F6TYMuuQXylB-dlNcO6B/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/10EPg4af5XsJViLCck_40KcwY4vhPJuAb/view?usp=sharing",
     "social": [
       {
         "name": "facebook",
@@ -29,7 +29,7 @@
       },
       {
         "name": "instagram",
-        "url": "https://www.instagram.com/ross__truegamer",
+        "url": "https://www.instagram.com/ross_truegamer",
         "className": "fa fa-instagram"
       },
       {
@@ -46,7 +46,13 @@
         "school": "Sinhgad Institute of Management, Pune",
         "degree": "Master of Computer Application (MCA)",
         "graduated": "April 2023",
-        "description": "Post Graduate "
+        "description": "First Class with Distinction - Grade 76.8% "
+      },
+      {
+        "school": "Modern College of Arts, Science and Commerce, Pune",
+        "degree": "Bachelor of Business Administration (BBA)",
+        "graduated": "April 2021",
+        "description": "First Class with Distinction - Grade 77.7% "
       }
     ],
     "work": [
@@ -59,7 +65,7 @@
       {
         "company": "LitmusBlox",
         "title": "Team Member && Full Stack Developer",
-        "years": "From Nov 2020",
+        "years": "Nov 2020 - Dec 2021",
         "description": "LitmusBlox is a powerful, AI-driven platform that helps companies screen hundreds of candidate applications automatically without making a single phone call. "
       },
       {
@@ -77,7 +83,7 @@
       },
       {
         "name": "Redux",
-        "level": "90%",
+        "level": "95%",
         "logo": "redux.png"
       },
       {
@@ -113,7 +119,13 @@
         "title": "ProShop",
         "category": "E-commerce website built with MERN",
         "image": "proshop.png",
-        "url": "https://proshop.gominimind.ai/"
+        "url": "https://proshop-fe.netlify.app/"
+      },
+      {
+        "title": "Finjo Flow Builder",
+        "category": "Finjo Flow Builder built with React (TypeScript)",
+        "image": "flow.png",
+        "url": "https://talentflow-dev.finjo.io/"
       },
       {
         "title": "Netflix Clone",
@@ -146,6 +158,14 @@
       {
         "text": "It is with much pleasure that I take this opportunity to write a personal recommendation for Roshan Sharma. He has been a crucial member of the web development team of Broadway Society and was working as a Full Stack Developer since he joined us on 04th April 2020 till 04th July 2020.      His task was to design and build our website - www.broadwaysociety.in , which he successfully did, and the organisation is really proud of him. Over his term of 100+ days at the organisation he has had diverse responsibilities, as a web developer. Being a Web Developer can be irritating at times, but for Roshan, it is something he loves, and puts all his time, effort and energy into. He worked both on the Front End and the Back End of the website. He has been regularly up to date with all the tasks assigned to him and has continuously provided the organisation with extremely high-quality work. Roshan carries his duties with due diligence and enthusiasm thus giving out his best. He is very focused and eyeing to make a name for himself in this field. He is an outgoing student of good character and a team builder. I have found him to be an individual of great commitment and focus, duly possessing exceptional logical thinking skills as manifested in his performance towards the duties and responsibilities. He is a dedicated individual and works with extreme professionalism. I can therefore recommend him to any place that he wants to go for. With my knowledge, I know he has the necessary skills and expertise to perform the duties assigned to him timely. I am confident he will apply the same enthusiasm in any institution where he is a part of. Having Roshan in your institution is more of an asset.",
         "user": "Aayush Kumar Jha Founder and Director Broadway Society"
+      },
+      {
+        "text": "I have had the privilege of working with Roshan for the a year at Litmusblox as a full-stack software engineer. During this time, I have been thoroughly impressed with his technical abilities, leadership skills, and overall dedication to his work. Roshan has been instrumental in the success of our projects at Litmusblox Additionally, Roshan has been a valuable mentor to the team of interns and has effectively guided them in their professional development. I am confident that Roshan would be an asset to any organization",
+        "user": "Suraj Wadje colleague from Broadway Society and LitmusBlox"
+      },
+      {
+        "text": "I had the pleasure of working with Roshan for few years and I highly recommend him for any professional opportunity. Roshan is an exceptional individual who brings a unique combination of technical expertise and outstanding interpersonal skills to any project. During our time together, Roshan consistently demonstrated his ability to think creatively and solve complex problems in a fast-paced environment. He has a strong work ethic and always goes the extra mile to ensure that the project is completed to the highest standard. His ability to effectively communicate and collaborate with team members, stakeholders and clients has been a major factor in our success. Roshan has a passion for learning and growth, and is constantly seeking new opportunities to expand his knowledge and skills. He is a true team player and always brings a positive attitude and energy to the workplace. I have no doubt that Roshan will excel in any role he takes on, and I highly recommend him to anyone looking for a top-performing professional. Best regards, Sumit Mullur",
+        "user": "Sumit Mullur worked with me but we were at different companies"
       }
     ]
   }
