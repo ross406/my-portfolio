@@ -40,6 +40,11 @@ class Header extends Component {
               </a>
             </li>
             <li>
+              <a className='smoothscroll' href='#portfolio'>
+                Works
+              </a>
+            </li>
+            <li>
               <a className='smoothscroll' href='#about'>
                 About
               </a>
@@ -49,11 +54,7 @@ class Header extends Component {
                 Resume
               </a>
             </li>
-            <li>
-              <a className='smoothscroll' href='#portfolio'>
-                Works
-              </a>
-            </li>
+
             <li>
               <a className='smoothscroll' href='#testimonials'>
                 Testimonials
@@ -66,7 +67,7 @@ class Header extends Component {
           <div className='banner-text'>
             <h1 className='responsive-headline'>I'm {name}.</h1>
             <h3>
-              I'm a {city} based <span>{occupation}</span>. {description}.
+             <span>{occupation}</span>. Specializing in {description}.
             </h3>
             <hr />
             <ul data-aos='fade-up' className='social'>

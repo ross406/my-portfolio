@@ -1,15 +1,19 @@
-import React, { Component } from 'react';
+import React, { Component, Suspense, lazy } from 'react';
 import ReactGA from 'react-ga';
 import $ from 'jquery';
 import './App.css';
 import Header from './Components/Header';
-import Footer from './Components/Footer';
-import About from './Components/About';
-import Resume from './Components/Resume';
-import Contact from './Components/Contact';
-import Testimonials from './Components/Testimonials';
 import Portfolio from './Components/Portfolio';
+const Footer = lazy(()=> (import('./Components/Footer')));
+const About =  lazy(()=>(import('./Components/About')));
+const Resume = lazy(()=>(import('./Components/Resume')));
+// const Contact = lazy(()=>(import('./Components/Contact')));
+const Testimonials = lazy(()=>(import('./Components/Testimonials')));
+// const Portfolio = lazy(()=>(import('./Components/Portfolio')));
+
 import { Helmet } from 'react-helmet';
+
+// const Header = lazy(()=>(import('./Components/Header')))
 
 class App extends Component {
   constructor(props) {
@@ -45,13 +49,35 @@ class App extends Component {
         <Helmet>
           <title>Roshan Sharma | Full Stack</title>
         </Helmet>
-        <Header data={this.state.resumeData.main} />
+        {/* <Suspense fallback="loading..."> */}
+          <Header data={this.state.resumeData.main} />
+        {/* </Suspense> */}
+
+        {/* <Suspense fallback="loading...">           */}
+          <Portfolio data={this.state.resumeData.portfolio} />
+        {/* </Suspense> */}
+
+        <Suspense fallback="loading...">
         <About data={this.state.resumeData.main} />
+        </Suspense>
+
+        <Suspense fallback="loading...">          
         <Resume data={this.state.resumeData.resume} />
-        <Portfolio data={this.state.resumeData.portfolio} />
+        </Suspense>
+
+      
+
+        <Suspense fallback="loading...">          
         <Testimonials data={this.state.resumeData.testimonials} />
-        {/* <Contact data={this.state.resumeData.main} /> */}
-        <Footer data={this.state.resumeData.main} />
+        </Suspense>
+
+        {/* <Suspense fallback="loading...">
+          <Contact data={this.state.resumeData.main} />
+        </Suspense> */}
+
+        <Suspense fallback="loading...">
+          <Footer data={this.state.resumeData.main} />
+        </Suspense>
       </div>
     );
   }
