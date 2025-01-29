@@ -57,22 +57,27 @@
     ],
     "work": [
       {
+        "company": "Tecnotree",
+        "title": "Lead Developer",
+        "years": "From May 2024",
+        "description": "Led the design and development of a Bill Layout Designer using React, incorporating the react-dnd library for intuitive drag-and-drop functionality. Developed a Config-Driven UI using JSON schema to dynamically define and manage widgets and styles. Implemented a Socket.IO connection in Node.js to enable real-time saving of templates. Improved application performance by reducing execution time by 80% through the implementation of Memoization, significantly optimizing data processing and rendering."
+      },
+      {
         "company": "Team Geek Solutions",
-        "title": "Team Member && Full Stack Developer",
-        "years": "From Dec 2021",
-        "description": "Team Geek Solutions is a technology consulting company that provides you an extended in-house team by deploying a crew of meticulously recruited, time-tested full stack experts working remotely in your projects. "
+        "title": "Software Engineer",
+        "years": "Dec 2021 - May 2024",
+        "description": " Developed and deployed a Discord Bot to facilitate matchmaking between players and manage dynamic teams for the Pittsburgh Knights (US based client), enhancing user engagement and team coordination. Designed and maintained NestJS microservices with seamless communication via NATS, integrated Redis caching to optimize performance and reduce response times. Utilizing DrizzleORM with PostgreSQL for efficient database management, ensuring a robust, scalable backend architecture. Built an AdminPanelusingNext.js, leveraging server and client components to deliver a dynamic, high-performance user interface for better administrative control and user experience"
       },
       {
         "company": "LitmusBlox",
-        "title": "Team Member && Full Stack Developer",
+        "title": "Software Engineer",
         "years": "Nov 2020 - Dec 2021",
-        "description": "LitmusBlox is a powerful, AI-driven platform that helps companies screen hundreds of candidate applications automatically without making a single phone call. "
-      },
+        "description": "LitmusBlox is an AI-powered platform that enables hiring managers to define jobs and helps the talent team to identify right-fit candidates exactly matching the job requirement. Worked as a Full Stack Software Developer and was responsible for developing modules assigned. Responsible for developing ReactJS client. Responsible for developing REST APIs with Node and Express. Designing and developing automation solutions for data extraction from the web with ReactJS. "},
       {
         "company": "Broadway Society",
-        "title": "Team Member && Full Stack Developer",
+        "title": "Software Engineer - Intern",
         "years": "April 2020 - July 2020",
-        "description": "Worked on a Movie reviews website a MERN stack Project "
+        "description": "Worked on a Movie reviews website a MERN stack Project. Worked as a Full Stack Software Developer. Worked on the Front End of the website which is built using React.js. Worked on the Back End of the website which is built using Node.js and Express. Managed MongoDB web database. Deployed the website on Heroku. "
       }
     ],
     "skills": [
@@ -126,7 +131,13 @@
         "category": "COVID-19 Tracker built with ReactJS",
         "image": "covid.png",
         "url": "https://covid-19-tracker-26dce.web.app/"
-      }
+      },
+      {
+        "title": "Finjo Flow Builder",
+        "category": "Finjo Flow Builder built with React (TypeScript)",
+        "image": "flow.png",
+        "url": "https://talentflow-dev.finjo.io/"
+      },
     ],
     "projects": [
       {
@@ -136,16 +147,22 @@
         "url": "https://proshop-fe.netlify.app/"
       },
       {
-        "title": "Finjo Flow Builder",
-        "category": "Finjo Flow Builder built with React (TypeScript)",
-        "image": "flow.png",
-        "url": "https://talentflow-dev.finjo.io/"
-      },
-      {
         "title": "EchoTube",
         "category": "Video streaming site with YouTube API integration",
         "image": "echotube.png",
         "url": "https://echotube-fe.netlify.app/"
+      },
+      {
+        "title": "Food Studio",
+        "category": "Food Delivery App Developed with React and Parcel Bundler",
+        "image": "foodstudio.png",
+        "url": "https://foodstudio-fe.netlify.app/"
+      },
+      {
+        "title": "Netflix With GPT",
+        "category": "Netflix Clone built with ReactJS and Chat GPT API",
+        "image": "netflix-clone.jpeg",
+        "url": "https://netflwithgpt.netlify.app/"
       },
       {
         "title": "Amazon Clone",
@@ -158,13 +175,7 @@
         "category": "Discord Clone built with ReactJS",
         "image": "discord.webp",
         "url": "https://discord-clone-4300c.web.app/"
-      },
-      {
-        "title": "Netflix Clone",
-        "category": "Netflix Clone built with ReactJS",
-        "image": "netflix-clone.jpeg",
-        "url": "https://netflix-clone-9762a.firebaseapp.com/"
-      }
+      }     
     ]
   },
   "testimonials": {
