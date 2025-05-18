@@ -4,7 +4,7 @@
     "occupation": "Full Stack Software Developer",
     "description": "ReactJS, Redux, NodeJS, Express, JavaScript",
     "image": "download.jpg",
-    "bio": "Passionate Full Stack Software Engineer with more than 4 years of professional experience in developing enterprise products using ReactJS, Redux, NodeJS, Express, JavaScript, SQL, MongoDB, Material UI, Bootstrap, HTML5, CSS3.",
+    "bio": "Passionate Full Stack Software Engineer with more than 5 years of professional experience in developing enterprise products using ReactJS, Redux, NodeJS, Express, JavaScript, SQL, MongoDB, Material UI, Bootstrap, HTML5, CSS3.",
     "contactmessage": "Get in touch with me to receive further details.",
     "email": "roshansharma406@gmail.com",
     "phone": "+91 9766084483",
@@ -15,7 +15,7 @@
       "zip": "411023"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload": "https://drive.google.com/file/d/10EPg4af5XsJViLCck_40KcwY4vhPJuAb/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1gup1SH1oALK6iVtzTrM8iOGFXNnsRMVy/view?usp=sharing",
     "social": [
       {
         "name": "facebook",
@@ -92,9 +92,29 @@
         "logo": "redux.png"
       },
       {
+        "name": "NextJs",
+        "level": "80%",
+        "logo": "next1.png"
+      },
+      {
         "name": "NodeJs",
         "level": "80%",
         "logo": "node.png"
+      },
+      {
+        "name": "NestJs",
+        "level": "80%",
+        "logo": "nestjs.png"
+      },
+      {
+        "name": "JavaScript",
+        "level": "90%",
+        "logo": "js.png"
+      },
+      {
+        "name": "TypeScript",
+        "level": "80%",
+        "logo": "ts.png"
       },
       {
         "name": "MongoDB",
@@ -102,14 +122,24 @@
         "logo": "mongodb.png"
       },
       {
-        "name": "CSS",
-        "level": "70%",
-        "logo": "css3.png"
+        "name": "MySQL",
+        "level": "80%",
+        "logo": "sql.png"
       },
       {
         "name": "HTML5",
         "level": "70%",
         "logo": "HTML5.png"
+      },
+      {
+        "name": "Tailwind CSS",
+        "level": "70%",
+        "logo": "tailwind-css.svg"
+      },
+      {
+        "name": "CSS",
+        "level": "70%",
+        "logo": "css3.png"
       },
       {
         "name": "Git",
@@ -142,39 +172,45 @@
     "projects": [
       {
         "title": "ProShop",
-        "category": "E-commerce website built with MERN",
+        "category": "E-commerce website built with MERN stack with Razorpay payment gateway",
         "image": "proshop.png",
-        "url": "https://proshop-fe.netlify.app/"
+        "url": "https://proshop-fe.netlify.app/",
+        "github": "https://github.com/ross406/ProShop-FE"
       },
       {
         "title": "EchoTube",
         "category": "Video streaming site with YouTube API integration",
         "image": "echotube.png",
-        "url": "https://echotube-fe.netlify.app/"
+        "url": "https://echotube-fe.netlify.app/",
+        "github": "https://github.com/ross406/ecotube"
       },
       {
         "title": "Food Studio",
         "category": "Food Delivery App Developed with React and Parcel Bundler",
         "image": "foodstudio.png",
-        "url": "https://foodstudio-fe.netlify.app/"
+        "url": "https://foodstudio-fe.netlify.app/",
+        "github": "https://github.com/ross406/FoodStudio"
       },
       {
         "title": "Netflix With GPT",
-        "category": "Netflix Clone built with ReactJS and Chat GPT API",
+        "category": "Netflix Clone built with ReactJS and Chat GPT API for Movies Suggestions",
         "image": "netflix-clone.jpeg",
-        "url": "https://netflwithgpt.netlify.app/"
+        "url": "https://netflwithgpt.netlify.app/",
+        "github": "https://github.com/ross406/Netflix-With-GPT"
       },
       {
         "title": "Amazon Clone",
-        "category": "Amazon Clone built with ReactJS",
+        "category": "Amazon Clone built with ReactJS, Stripe Payment Gateway",
         "image": "dims.jpg",
-        "url": "https://clone-2a6eb.firebaseapp.com/"
+        "url": "https://clone-2a6eb.firebaseapp.com/",
+        "github": "https://github.com/ross406/amazon-clone"
       },
       {
         "title": "Discord Clone",
-        "category": "Discord Clone built with ReactJS",
+        "category": "Discord Clone built with ReactJS, OAuth 2.0 authentication, Firebase DB and APIs",
         "image": "discord.webp",
-        "url": "https://discord-clone-4300c.web.app/"
+        "url": "https://discord-clone-4300c.web.app/",
+        "github": "https://github.com/ross406/discord-clone"
       }     
     ]
   },
