@@ -82,6 +82,17 @@ class Resume extends Component {
 
     return (
       <section id='resume'>
+
+         {/* Work Section */}
+        <div data-aos='fade-up' className='row work'>
+          <div className='three columns header-col'>
+            <h1>
+              <span>Work</span>
+            </h1>
+          </div>
+          <div className='nine columns main-col'>{workItems}</div>
+        </div>
+
         {/* Education Section */}
         <div data-aos='fade-up' className='row education'>
           <div className='three columns header-col'>
@@ -94,16 +105,6 @@ class Resume extends Component {
               <div className='twelve columns'>{educationItems}</div>
             </div>
           </div>
-        </div>
-
-        {/* Work Section */}
-        <div data-aos='fade-up' className='row work'>
-          <div className='three columns header-col'>
-            <h1>
-              <span>Work</span>
-            </h1>
-          </div>
-          <div className='nine columns main-col'>{workItems}</div>
         </div>
 
         {/* Skills Section */}
