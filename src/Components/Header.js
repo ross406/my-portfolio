@@ -14,7 +14,15 @@ class Header extends Component {
       var city = this.props.data.address.city;
       var networks = this.props.data.social.map(function (network) {
         return (
-          <li key={network.name}>
+          <li key={network.name} 
+          style={{
+            background: 'linear-gradient(90deg, #ff4e50, #f9d423)',
+            // background: 'linear-gradient(90deg, #007cf0, #00dfd8)', 
+            WebkitBackgroundClip: 'text',
+            WebkitTextFillColor: 'transparent',
+            fontWeight: 'bold',
+            textShadow:'none'
+          }}>
             <a target='_blank' href={network.url}>
               <i className={network.className}></i>
             </a>
@@ -65,8 +73,26 @@ class Header extends Component {
 
         <div className='row banner'>
           <div className='banner-text'>
-            <h1 className='responsive-headline'>I'm {name}.</h1>
-            <h3>
+            <h1 className='responsive-headline' style={{
+              // background: 'linear-gradient(90deg, #ff5fad, #8f6ed5, #5ec5ff)',
+              background: 'linear-gradient(90deg, #7b2ff7, #f107a3)', // purple to pink
+              // background: 'linear-gradient(90deg, #007cf0, #00dfd8)', 
+              // background: 'linear-gradient(90deg, #ff4e50, #f9d423)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              fontWeight: 'bold',
+              textShadow:'none'
+            }}>
+              I'm {name}.
+            </h1>
+            <h3 style={{
+              // background: 'linear-gradient(90deg, #ff4e50, #f9d423)',
+              background: 'linear-gradient(90deg, #007cf0, #00dfd8)', 
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              fontWeight: 'bold',
+              textShadow:'none'
+            }}>
              <span>{occupation}</span>. Specializing in {description}.
             </h3>
             <hr />
@@ -77,7 +103,7 @@ class Header extends Component {
         </div>
 
         <p className='scrolldown'>
-          <a className='smoothscroll' href='#about'>
+          <a className='smoothscroll' href='#portfolio'>
             <i className='icon-down-circle'></i>
           </a>
         </p>

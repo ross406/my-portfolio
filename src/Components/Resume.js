@@ -14,23 +14,23 @@ class Resume extends Component {
 
     const educationItems = education.map((edu) => (
       <div key={edu.school}>
-        <h3>{edu.school}</h3>
-        <p className='info'>
+        <h3 style={{color:"#f1f1f1"}}>{edu.school}</h3>
+        <p className='info' style={{color:"#a4a4a4"}}>
           {edu.degree} <span>&bull;</span>{' '}
           <em className='date'>{edu.graduated}</em>
         </p>
-        <p>{edu.description}</p>
+        <p style={{color:"#6e7881"}}>{edu.description}</p>
       </div>
     ));
 
     const workItems = work.map((job) => (
-      <div key={job.company}>
-        <h3>{job.company}</h3>
-        <p className='info'>
+      <div  key={job.company}>
+        <h3 style={{color:"#f1f1f1"}}>{job.company}</h3>
+        <p className='info' style={{color:"#a4a4a4"}}>
           {job.title} <span>&bull;</span>{' '}
           <em className='date'>{job.years}</em>
         </p>
-        <p>{job.description}</p>
+        <p style={{color:"#6e7881"}}>{job.description}</p>
       </div>
     ));
 
@@ -41,8 +41,8 @@ class Resume extends Component {
         <div
           key={skill.name}
           style={{
-            background: '#1e1e2f',
-            color: '#fff',
+            background: '#111',
+            color: '#ccc',
             borderRadius: '10px',
             padding: '20px',
             margin: '10px',
@@ -71,8 +71,9 @@ class Resume extends Component {
               style={{
                 height: '100%',
                 width: skill.level,
-                background: 'orange',
+                // background: 'orange',
                 transition: 'width 1s ease-in-out',
+                background: 'linear-gradient(90deg, #7b2ff7, #f107a3)', 
               }}
             ></div>
           </div>
@@ -81,13 +82,13 @@ class Resume extends Component {
     });
 
     return (
-      <section id='resume'>
+      <section id='resume' style={{backgroundColor:"#1e1e2f", color:"#f1f1f1"}}>
 
          {/* Work Section */}
         <div data-aos='fade-up' className='row work'>
           <div className='three columns header-col'>
             <h1>
-              <span>Work</span>
+              <span style={{color:"#f1f1f1"}}>Work</span>
             </h1>
           </div>
           <div className='nine columns main-col'>{workItems}</div>
@@ -97,7 +98,7 @@ class Resume extends Component {
         <div data-aos='fade-up' className='row education'>
           <div className='three columns header-col'>
             <h1>
-              <span>Education</span>
+              <span style={{color:"#f1f1f1"}}>Education</span>
             </h1>
           </div>
           <div className='nine columns main-col'>
@@ -111,7 +112,7 @@ class Resume extends Component {
         <div data-aos='fade-up' className='row skill'>
           <div className='three columns header-col'>
             <h1>
-              <span>Skills</span>
+              <span style={{color:"#f1f1f1"}}>Skills</span>
             </h1>
           </div>
           <div className='nine columns main-col'>
